@@ -122,17 +122,6 @@ button { color: inherit; font: inherit; }
     radial-gradient(circle at 90% 8%, rgba(174, 184, 162, .28), transparent 24rem),
     var(--paper);
 }
-.links-panel::after {
-  position: absolute;
-  z-index: 0;
-  right: -115px;
-  bottom: 60px;
-  width: 270px;
-  height: 270px;
-  border: 1px solid var(--line);
-  border-radius: 50%;
-  content: "";
-}
 .profile,
 .link-list,
 .panel-footer,
